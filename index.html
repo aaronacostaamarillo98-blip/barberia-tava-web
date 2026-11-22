@@ -105,7 +105,12 @@ footer .wrap{display:flex;justify-content:space-between}
 @media(max-width:900px){.hero .wrap,.ubic .wrap{grid-template-columns:1fr}.grid4{grid-template-columns:1fr 1fr}.pasos{grid-template-columns:1fr}h1{font-size:60px}.links{display:none}.sec-head{flex-direction:column;align-items:flex-start}h2{font-size:44px}}
 @media(max-width:560px){.grid4{grid-template-columns:1fr}.stats{gap:22px}.final h2{font-size:48px}}
 @media(max-width:560px){.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.stats b{font-size:22px}.stats span{font-size:12px}.cta{flex-wrap:wrap}}
+.ok{display:flex;align-items:center;gap:10px;margin-top:14px;color:var(--mut);font-size:14px}.lottie-ok{width:34px;height:34px;flex:none}
 </style>
+<script defer src="js/gsap.min.js?v=20261121"></script>
+<script defer src="js/ScrollTrigger.min.js?v=20261121"></script>
+<script defer src="js/lottie_light.min.js?v=20261121"></script>
+<script defer src="js/motion.js?v=20261121"></script>
 </head>
 <body>
 <nav><div class="wrap">
@@ -128,6 +133,7 @@ footer .wrap{display:flex;justify-content:space-between}
     <div class="days"><div class="day">Mié<b>19</b></div><div class="day">Jue<b>20</b></div><div class="day on">Vie<b>21</b></div><div class="day">Sáb<b>22</b></div><div class="day">Lun<b>24</b></div></div>
     <div class="slots"><div class="slot off">09:00</div><div class="slot">10:30</div><div class="slot off">12:00</div><div class="slot">15:00</div><div class="slot pick">16:30</div><div class="slot">18:00</div></div>
     <a class="btn" href="#">Reservar viernes 16:30</a>
+    <div class="ok"><span class="lottie-ok" aria-hidden="true"></span><span>Te confirmamos el turno por WhatsApp</span></div>
   </div>
 </div></header>
 

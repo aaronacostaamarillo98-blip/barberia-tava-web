@@ -35,6 +35,11 @@ Botón principal: fondo dorado y texto `#17120a`. Nunca texto blanco sobre dorad
 ## Voz
 Voseo paraguayo, frases cortas y directas: "Elegí el día y la hora", "Sin audios, sin filas". Nada de promesas exageradas ni datos inventados (reseñas, cantidad de clientes).
 
+## Movimiento
+- **GSAP + ScrollTrigger** (autoalojados en `js/`): el título del inicio entra palabra por palabra, las secciones y tarjetas suben suave al hacer scroll. Curvas `expo.out` / `power3.out`, nunca rebote en textos.
+- **Lottie** (`anim/check.json`): tilde que se dibuja para confirmar acciones (turno confirmado, producto agregado).
+- Todo el movimiento vive en `js/motion.js`. Sin JS el contenido se ve completo; con `prefers-reduced-motion` no se anima nada.
+
 ## Calidad
 - Contraste mínimo 4,5:1 en el texto.
 - Foco visible con `:focus-visible` en dorado claro.
